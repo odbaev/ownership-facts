@@ -1,0 +1,11 @@
+import "base.proto";
+import "facttypes_base.proto";
+
+message Ownership: NFactType.TFact 
+{
+  optional string Owner_surname = 1;
+  optional string Owner_name = 2;
+  optional string Owner_patronymic = 3;
+  optional string Owner_org_name = 4;
+  required string Property = 5;
+}

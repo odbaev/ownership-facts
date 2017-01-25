@@ -1,0 +1,16 @@
+encoding "utf8";
+
+TAuxDicArticle "surname"
+{
+    key = { "../dicts/surnames.txt" type=FILE }
+}
+
+TAuxDicArticle "name"
+{
+    key = { "../dicts/names.txt" type=FILE }
+}
+
+TAuxDicArticle "patronymic"
+{
+    key = { "../dicts/patronymics.txt" type=FILE }
+}

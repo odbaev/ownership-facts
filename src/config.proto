@@ -1,0 +1,24 @@
+encoding "utf8";
+
+TTextMinerConfig {
+  Dictionary = "src/dic.gzt";
+  
+  PrettyOutput = "output/debug.html";
+
+  Input = {
+    File = "text.txt";
+  }
+
+  Articles = [
+    { Name = "Ownership" }
+  ]
+
+  Facts = [
+    { Name = "Ownership" }
+  ]
+
+  Output = {
+    File = "output/facts.xml";
+    Format = xml;
+  }
+}

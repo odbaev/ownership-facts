@@ -1,0 +1,6 @@
+encoding "utf8";
+
+TAuxDicArticle "org_name"
+{
+    key = { "../dicts/org_names.txt" type=FILE }
+}

@@ -1,0 +1,13 @@
+encoding "utf8"; 
+
+import "base.proto";
+import "articles_base.proto";
+
+import "facttypes.proto";
+import "person_dict.gzt";
+import "org_dict.gzt";
+
+TAuxDicArticle "Ownership"
+{
+    key = { "tomita:ownership.cxx" type=CUSTOM }
+}
